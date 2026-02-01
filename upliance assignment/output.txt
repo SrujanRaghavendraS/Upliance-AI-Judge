@@ -1,0 +1,181 @@
+PS C:\Users\sruja\OneDrive\Desktop\upliance assignment> python main.py
+>>
+
+Round 1 - Enter your move: rock
+
+AI Judge Decision:
+{
+  "round_number": 1,
+  "user_input": "rock",
+  "interpreted_move": "rock",
+  "move_status": "VALID",
+  "explanation": "The user's input 'rock' is a clear and valid move.",
+  "round_result": "No result",
+  "bomb_used_by_user": false,
+  "next_step_message": "Please wait for the bot's move."
+}
+
+Round 2 - Enter your move: bomb
+
+AI Judge Decision:
+{
+  "round_number": 2,
+  "user_input": "bomb",
+  "interpreted_move": "bomb",
+  "move_status": "VALID",
+  "explanation": "The user explicitly stated 'bomb', which is a valid move.",
+  "round_result": "No result",
+  "bomb_used_by_user": true,
+  "next_step_message": "Please wait for the bot's move to proceed."
+}
+
+Round 3 - Enter your move: rock or paper
+
+AI Judge Decision:
+{
+  "round_number": 3,
+  "user_input": "rock or paper",
+  "interpreted_move": null,
+  "move_status": "UNCLEAR",
+  "explanation": "The input mentions more than one valid move, making it unclear.",
+  "round_result": "No result",
+  "bomb_used_by_user": true,
+  "next_step_message": "Please enter a single valid move."
+}
+
+
+
+
+
+
+
+PS C:\Users\sruja\OneDrive\Desktop\upliance assignment> python .\main.py
+
+Round 1 - Enter your move: bomb
+
+AI Judge Decision:
+{
+  "round_number": 1,
+  "user_input": "bomb",
+  "interpreted_move": "bomb",
+  "move_status": "VALID",
+  "explanation": "The user's input 'bomb' is a clear and valid move.",
+  "round_result": "No result",
+  "bomb_used_by_user": true,
+  "next_step_message": "Waiting for the bot's move."
+}
+
+Round 2 - Enter your move: rock
+
+AI Judge Decision:
+{
+  "round_number": 2,
+  "user_input": "rock",
+  "interpreted_move": "rock",
+  "move_status": "VALID",
+  "explanation": "The user's input 'rock' is a clear and valid move.",
+  "round_result": "Bot wins",
+  "bomb_used_by_user": true,
+  "next_step_message": "The bot's move was 'paper'."
+}
+
+Round 3 - Enter your move: scissor
+
+AI Judge Decision:
+{
+  "round_number": 3,
+  "user_input": "scissor",
+  "interpreted_move": "scissors",
+  "move_status": "VALID",
+  "explanation": "The user intended to play 'scissors'.",
+  "round_result": "Bot wins",
+  "bomb_used_by_user": true,
+  "next_step_message": "Please enter your next move."
+}
+
+
+
+
+
+AI Judge Decision:
+{
+  "round_number": 1,
+  "user_input": "rock",
+  "interpreted_move": "rock",
+  "move_status": "VALID",
+  "explanation": "The user intended to play 'rock'.",
+  "round_result": "No result",
+  "bomb_used_by_user": false,
+  "next_step_message": "Waiting for bot's move"
+}
+
+Round 2 - Enter your move: paper
+
+AI Judge Decision:
+{
+  "round_number": 2,
+  "user_input": "paper",
+  "interpreted_move": "paper",
+  "move_status": "VALID",
+  "explanation": "The user's input 'paper' is a clear and valid move.",
+  "round_result": "No result",
+  "bomb_used_by_user": false,
+  "next_step_message": "Waiting for the bot's move."
+}
+
+Round 3 - Enter your move: scissors
+
+AI Judge Decision:
+{
+  "round_number": 3,
+  "user_input": "scissors",
+  "interpreted_move": "scissors",
+  "move_status": "VALID",
+  "explanation": "The user input 'scissors' is a clear and valid move.",
+  "round_result": "No result",
+  "bomb_used_by_user": false,
+  "next_step_message": "Waiting for the bot's move to determine the round result."
+}
+PS C:\Users\sruja\OneDrive\Desktop\upliance assignment> python .\main.py
+
+Round 1 - Enter your move: I want to go with rock
+
+AI Judge Decision:
+{
+  "round_number": 1,
+  "user_input": "I want to go with rock",
+  "interpreted_move": "rock",
+  "move_status": "VALID",
+  "explanation": "The user explicitly stated their intention to play rock.",
+  "round_result": "No result",
+  "bomb_used_by_user": false,
+  "next_step_message": "Waiting for the bot's move..."
+}
+
+Round 2 - Enter your move: I want to Bomb
+
+AI Judge Decision:
+{
+  "round_number": 2,
+  "user_input": "I want to Bomb",
+  "interpreted_move": "bomb",
+  "move_status": "VALID",
+  "explanation": "The user explicitly stated their intent to play 'bomb'.",
+  "round_result": "No result",
+  "bomb_used_by_user": false,
+  "next_step_message": "Awaiting the bot's move to determine the round result."
+}
+
+Round 3 - Enter your move: scissors or bomb
+
+AI Judge Decision:
+{
+  "round_number": 3,
+  "user_input": "scissors or bomb",
+  "interpreted_move": null,
+  "move_status": "UNCLEAR",
+  "explanation": "The user's input mentions two valid moves, making it unclear what they intended to play.",
+  "round_result": "No result",
+  "bomb_used_by_user": false,
+  "next_step_message": "Please enter a single valid move."
+}
